@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">test5</string>
+    <string name="product_nam">Product Name</string>
+    <string name="start">START</string>
+    <string name="scanning">SCANNING</string>
+    <string name="some_id1">Скорость</string>
+    <string name="some_id2">Подсказки</string>
+</resources>

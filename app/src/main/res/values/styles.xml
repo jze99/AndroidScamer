@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="product_nam">
+        <item name="android:textSize">19.39sp</item>
+        <item name="android:textColor">#A4A0FF</item>
+    </style>
+    <style name="start">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#DCDBFF</item>
+    </style>
+    <style name="scann">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#DCDBFF</item>
+    </style>
+    <style name="some_id">
+        <item name="android:textSize">12.5sp</item>
+        <item name="android:textColor">#776DEF</item>
+    </style>
+
+</resources>
