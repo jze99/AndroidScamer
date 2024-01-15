@@ -5,4 +5,7 @@
     <string name="scanning">SCANNING</string>
     <string name="some_id1">Скорость</string>
     <string name="some_id2">Подсказки</string>
+    <string name="some_id3">Анти-Спам</string>
+    <string name="AntySpamOn">Вкл.</string>
+    <string name="AntySpamOff">Выкл.</string>
 </resources>

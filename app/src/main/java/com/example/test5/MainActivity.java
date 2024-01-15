@@ -7,22 +7,22 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ImageView _group_iteractable;
-    private ImageView _group_iteractable2;
+    private ImageView speedTestImageView;
+    private ImageView hintsImageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        _group_iteractable = findViewById(R.id.group_iteractable);
-        _group_iteractable2 = findViewById(R.id.group_iteractable2);
+        speedTestImageView = findViewById(R.id.speedTestImageView);
+        hintsImageView = findViewById(R.id.HintsImageView);
     }
-    public void group_button(View v)
+    public void SpeedTestButton_Clic(View v)
     {
-        _group_iteractable.setVisibility(View.VISIBLE);
+        speedTestImageView.setVisibility(View.VISIBLE);
     }
-    public void group_button2(View v)
+    public void HintsButton_Clic(View v)
     {
-        _group_iteractable2.setVisibility(View.VISIBLE);
+        hintsImageView.setVisibility(View.VISIBLE);
     }
 }

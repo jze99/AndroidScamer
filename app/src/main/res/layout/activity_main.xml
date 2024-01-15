@@ -7,7 +7,6 @@
     android:background="#05041D"
     tools:context=".MainActivity">
 
-
     <ImageView
         android:id="@+id/ellipse_4"
         android:layout_width="0dp"
@@ -59,7 +58,7 @@
 
 
     <ImageButton
-        android:id="@+id/ellipse_35"
+        android:id="@+id/ScanerButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="-10dp"
@@ -83,10 +82,10 @@
         android:text="@string/start"
         android:textAppearance="@style/start"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/ellipse_35"
+        app:layout_constraintEnd_toEndOf="@+id/ScanerButton"
         app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="@+id/ellipse_35"
-        app:layout_constraintTop_toTopOf="@+id/ellipse_35" />
+        app:layout_constraintStart_toStartOf="@+id/ScanerButton"
+        app:layout_constraintTop_toTopOf="@+id/ScanerButton" />
 
     <TextView
         android:id="@+id/scann"
@@ -99,8 +98,8 @@
         android:text="@string/scanning"
         android:textAppearance="@style/scann"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/ellipse_35"
-        app:layout_constraintStart_toStartOf="@+id/ellipse_35"
+        app:layout_constraintEnd_toEndOf="@+id/ScanerButton"
+        app:layout_constraintStart_toStartOf="@+id/ScanerButton"
         app:layout_constraintTop_toBottomOf="@+id/start" />
 
     <ImageView
@@ -110,7 +109,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/ellipse_4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ellipse_35"
+        app:layout_constraintTop_toBottomOf="@+id/ScanerButton"
         app:layout_constraintVertical_bias="0.262"
         app:srcCompat="@drawable/rectangle_2" />
 
@@ -126,14 +125,14 @@
         app:srcCompat="@drawable/union" />
 
     <ImageButton
-        android:id="@+id/group"
+        android:id="@+id/SpeedTestButton"
         style="@style/Widget.AppCompat.ImageButton"
         android:layout_width="158dp"
         android:layout_height="102dp"
         android:background="@android:drawable/divider_horizontal_bright"
         android:contentDescription="@string/app_name"
-        android:onClick="group_button"
-        app:layout_constraintBottom_toBottomOf="@+id/ellipse_3"
+        android:onClick="SpeedTestButton_Clic"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_2"
         app:layout_constraintEnd_toEndOf="@+id/union"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/union"
@@ -151,15 +150,15 @@
         android:lineSpacingExtra="-2sp"
         android:text="@string/some_id1"
         android:textAppearance="@style/some_id"
-        app:layout_constraintBottom_toBottomOf="@+id/group"
-        app:layout_constraintEnd_toEndOf="@+id/group"
-        app:layout_constraintHorizontal_bias="0.385"
-        app:layout_constraintStart_toStartOf="@+id/group"
-        app:layout_constraintTop_toTopOf="@+id/group"
-        app:layout_constraintVertical_bias="0.888" />
+        app:layout_constraintBottom_toBottomOf="@+id/SpeedTestButton"
+        app:layout_constraintEnd_toEndOf="@+id/SpeedTestButton"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/SpeedTestButton"
+        app:layout_constraintTop_toTopOf="@+id/SpeedTestButton"
+        app:layout_constraintVertical_bias="0.891" />
 
     <ImageView
-        android:id="@+id/group_iteractable"
+        android:id="@+id/speedTestImageView"
         android:layout_width="218dp"
         android:layout_height="130dp"
         android:layout_marginStart="-21dp"
@@ -191,12 +190,12 @@
         app:layout_constraintVertical_bias="0.357" />
 
     <ImageButton
-        android:id="@+id/group2"
+        android:id="@+id/HintsButton"
         android:layout_width="161dp"
         android:layout_height="103dp"
         android:background="@android:drawable/divider_horizontal_bright"
         android:contentDescription="@string/app_name"
-        android:onClick="group_button2"
+        android:onClick="HintsButton_Clic"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_2"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_2"
         app:layout_constraintHorizontal_bias="0.944"
@@ -206,7 +205,7 @@
         app:srcCompat="@drawable/groupe_5" />
 
     <ImageView
-        android:id="@+id/group_iteractable2"
+        android:id="@+id/HintsImageView"
         android:layout_width="221dp"
         android:layout_height="126dp"
         android:layout_marginTop="-4dp"
@@ -221,5 +220,66 @@
         app:srcCompat="@drawable/mask_group_1"
         tools:visibility="visible" />
 
+    <ImageButton
+        android:id="@+id/AntiSpamButton"
+        android:layout_width="161dp"
+        android:layout_height="107dp"
+        android:background="@android:drawable/divider_horizontal_bright"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_2"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_2"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_2"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_2"
+        app:layout_constraintVertical_bias="0.83"
+        app:srcCompat="@android:drawable/divider_horizontal_bright" />
+
+    <TextView
+        android:id="@+id/some_id3"
+        android:layout_width="87dp"
+        android:layout_height="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="-2sp"
+        android:text="@string/some_id3"
+        android:textAppearance="@style/some_id"
+        app:layout_constraintBottom_toBottomOf="@+id/AntiSpamButton"
+        app:layout_constraintEnd_toEndOf="@+id/AntiSpamButton"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="@+id/AntiSpamButton"
+        app:layout_constraintTop_toBottomOf="@+id/SpeedTestButton"
+        app:layout_constraintVertical_bias="0.655" />
+
+    <TextView
+        android:id="@+id/AntySpamBoolinText"
+        android:layout_width="87.5dp"
+        android:layout_height="23.96dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="-2sp"
+        android:text="@string/AntySpamOff"
+        android:textAppearance="@style/AntySpamStyle"
+        app:layout_constraintBottom_toBottomOf="@+id/AntiSpamButton"
+        app:layout_constraintEnd_toEndOf="@+id/AntiSpamButton"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="@+id/AntiSpamButton"
+        app:layout_constraintTop_toBottomOf="@+id/speedTestImageView"
+        app:layout_constraintVertical_bias="0.883" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="42dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="55dp"
+        app:layout_constraintBottom_toBottomOf="@+id/AntiSpamButton"
+        app:layout_constraintEnd_toEndOf="@+id/AntiSpamButton"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="@+id/AntiSpamButton"
+        app:layout_constraintTop_toTopOf="@+id/AntiSpamButton"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/subtract" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
