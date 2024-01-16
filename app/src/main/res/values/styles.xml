@@ -7,17 +7,21 @@
     <style name="start">
         <item name="android:textSize">30sp</item>
         <item name="android:textColor">#DCDBFF</item>
+        <item name="android:textStyle">bold</item>
     </style>
     <style name="scann">
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">#DCDBFF</item>
+        <item name="android:textStyle">bold</item>
     </style>
     <style name="some_id">
         <item name="android:textSize">12.5sp</item>
         <item name="android:textColor">#776DEF</item>
+        <item name="android:textStyle">bold</item>
     </style>
     <style name="AntySpamStyle">
-        <item name="android:textSize">10sp</item>
+        <item name="android:textSize">11sp</item>
         <item name="android:textColor">#4A4A94</item>
+        <item name="android:textStyle">bold</item>
     </style>
 </resources>
